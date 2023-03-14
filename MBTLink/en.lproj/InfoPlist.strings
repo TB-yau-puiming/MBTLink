@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  MBTLink
+
+  Created by 開発用treebell003 on 2022/12/27.
+  
+*/
+NSBluetoothAlwaysUsageDescription = "Need to use BLE for pairing with IOT sensors for various health data acquisition.";
+NSBluetoothPeripheralUsageDescription = "Need to use BLE for pairing with IOT sensors for various health data acquisition.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Combining the number of steps and the route traveled will be used for more accurate understanding of the health condition.";
+NSLocationAlwaysUsageDescription = "Combining the number of steps and the route traveled will be used for more accurate understanding of the health condition.";
+NSLocationUsageDescription = "Combining the number of steps and the route traveled will be used for more accurate understanding of the health condition.";
+NSLocationWhenInUseUsageDescription = "Combining the number of steps and the route traveled will be used for more accurate understanding of the health condition.";

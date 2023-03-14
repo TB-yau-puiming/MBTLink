@@ -1,0 +1,345 @@
+
+/* Class = "UIButton"; normalTitle = "ペアリング開始"; ObjectID = "0Vz-co-w4s"; */
+"0Vz-co-w4s.normalTitle" = "Start Pairing";
+
+/* Class = "UILabel"; text = "CH76"; ObjectID = "1Zt-aq-mSZ"; */
+"1Zt-aq-mSZ.text" = "CH76";
+
+/* Class = "UILabel"; text = "WeChat"; ObjectID = "1sN-BC-P7h"; */
+"1sN-BC-P7h.text" = "WeChat";
+
+/* Class = "UINavigationItem"; title = "ウェアラブル設定"; ObjectID = "3TH-q3-v9I"; */
+"3TH-q3-v9I.title" = "Wearable Settings";
+
+/* Class = "UILabel"; text = "送信先URL"; ObjectID = "3wU-Qf-L4E"; */
+"3wU-Qf-L4E.text" = "Sending Server URL";
+
+/* Class = "UILabel"; text = "LINE"; ObjectID = "4GL-4f-DTW"; */
+"4GL-4f-DTW.text" = "LINE";
+
+/* Class = "UILabel"; text = "MACアドレス"; ObjectID = "4bD-yr-k8z"; */
+"4bD-yr-k8z.text" = "MAC Address";
+
+/* Class = "UIButton"; normalTitle = "設定クリア"; ObjectID = "5ek-gu-rwm"; */
+"5ek-gu-rwm.normalTitle" = "Clear Settings";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "7HX-j9-CaF"; */
+"7HX-j9-CaF.text" = "Title";
+
+/* Class = "UILabel"; text = "自動測定 測定間隔"; ObjectID = "7hU-gk-Gqd"; */
+"7hU-gk-Gqd.text" = "Auto Measurement Interval";
+
+/* Class = "UITextField"; placeholder = "1-60"; ObjectID = "7mn-hp-Vtu"; */
+"7mn-hp-Vtu.placeholder" = "1-60";
+
+/* Class = "UITextField"; text = "70"; ObjectID = "7mn-hp-Vtu"; */
+"7mn-hp-Vtu.text" = "70";
+
+/* Class = "UILabel"; text = "cm"; ObjectID = "8CA-32-WTe"; */
+"8CA-32-WTe.text" = "cm";
+
+/* Class = "UILabel"; text = "SMS"; ObjectID = "8ON-Fp-b9b"; */
+"8ON-Fp-b9b.text" = "SMS";
+
+/* Class = "UILabel"; text = "通知時刻"; ObjectID = "9at-iZ-Wfp"; */
+"9at-iZ-Wfp.text" = "Notification Time";
+
+/* Class = "UILabel"; text = "messenger"; ObjectID = "9bu-gb-hGu"; */
+"9bu-gb-hGu.text" = "messenger";
+
+/* Class = "UITextField"; text = "09:00"; ObjectID = "AiZ-XV-909"; */
+"AiZ-XV-909.text" = "09:00";
+
+/* Class = "UILabel"; text = "位置情報受信レベル"; ObjectID = "Al9-ln-0JM"; */
+"Al9-ln-0JM.text" = "Location Notification Reception Level";
+
+/* Class = "UILabel"; text = "送信間隔（分）"; ObjectID = "B89-vy-1ZF"; */
+"B89-vy-1ZF.text" = "Notification Interval";
+
+/* Class = "UIButton"; normalTitle = "計測器設定"; ObjectID = "Bli-Yn-dIk"; */
+"Bli-Yn-dIk.normalTitle" = "Measuring Device Settings";
+
+/* Class = "UITableViewSection"; headerTitle = "環境センサー設定"; ObjectID = "CPx-Yr-ASP"; */
+"CPx-Yr-ASP.headerTitle" = "Environment Sensor Settings";
+
+/* Class = "UILabel"; text = "SMS"; ObjectID = "DBA-C4-5NI"; */
+"DBA-C4-5NI.text" = "SMS";
+
+/* Class = "UIButton"; normalTitle = "ウォッチ追加"; ObjectID = "DjP-ZM-TLB"; */
+"DjP-ZM-TLB.normalTitle" = "Add Watch";
+
+/* Class = "UILabel"; text = "位置情報を通知する"; ObjectID = "EaT-QQ-jgg"; */
+"EaT-QQ-jgg.text" = "Notify Location Information";
+
+/* Class = "UIButton"; normalTitle = "サーバー設定"; ObjectID = "Fd3-fX-TDA"; */
+"Fd3-fX-TDA.normalTitle" = "Server Settings";
+
+/* Class = "UITextField"; text = "3分"; ObjectID = "GN7-OX-7WX"; */
+"GN7-OX-7WX.text" = "3minutes";
+
+/* Class = "UILabel"; text = "分"; ObjectID = "GXQ-U3-7Tp"; */
+"GXQ-U3-7Tp.text" = "minutes";
+
+/* Class = "UITextField"; placeholder = "半角12桁まで"; ObjectID = "GvK-Z1-bMj"; */
+"GvK-Z1-bMj.placeholder" = "up to 12 characters";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "H21-Hv-8tb"; */
+"H21-Hv-8tb.text" = "Subtitle";
+
+/* Class = "UITextField"; placeholder = "1-60"; ObjectID = "I63-zi-odq"; */
+"I63-zi-odq.placeholder" = "1-60";
+
+/* Class = "UITextField"; text = "5"; ObjectID = "I63-zi-odq"; */
+"I63-zi-odq.text" = "5";
+
+/* Class = "UILabel"; text = "ゲートウェイ番号"; ObjectID = "IS3-yQ-7w0"; */
+"IS3-yQ-7w0.text" = "Gateway Number";
+
+/* Class = "UILabel"; text = "歩幅"; ObjectID = "Ihv-2d-0KQ"; */
+"Ihv-2d-0KQ.text" = "Walking Step Length";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "Iue-8b-gIq"; */
+"Iue-8b-gIq.text" = "1";
+
+/* Class = "UILabel"; text = "instagram"; ObjectID = "J9S-co-hyC"; */
+"J9S-co-hyC.text" = "instagram";
+
+/* Class = "UITextField"; placeholder = "半角"; ObjectID = "Jse-S3-Yny"; */
+"Jse-S3-Yny.placeholder" = "half-width character";
+
+/* Class = "UILabel"; text = "MACアドレス"; ObjectID = "KNQ-Yx-hPO"; */
+"KNQ-Yx-hPO.text" = "MAC Address";
+
+/* Class = "UILabel"; text = "位置情報通知 開始時刻"; ObjectID = "Ksk-YD-9vI"; */
+"Ksk-YD-9vI.text" = "Location Notification Start Time";
+
+/* Class = "UITableViewSection"; headerTitle = "通知アプリ"; ObjectID = "MKh-aN-H46"; */
+"MKh-aN-H46.headerTitle" = "Notification Application";
+
+/* Class = "UILabel"; text = "個人番号"; ObjectID = "MUK-tl-KuD"; */
+"MUK-tl-KuD.text" = "Personal Number";
+
+/* Class = "UILabel"; text = "ウォッチ設定"; ObjectID = "O1c-nn-nnc"; */
+"O1c-nn-nnc.text" = "Watch Settings";
+
+/* Class = "UILabel"; text = "オムロン環境センサ 2JCIE-BL01"; ObjectID = "ON5-Ch-ef8"; */
+"ON5-Ch-ef8.text" = "OMRON Environment Sensor 2JCIE-BL01";
+
+/* Class = "UILabel"; text = "未接続"; ObjectID = "Oe6-Vd-6lS"; */
+"Oe6-Vd-6lS.text" = "Not Connected";
+
+/* Class = "UITableViewSection"; headerTitle = "機能"; ObjectID = "PPa-au-cGS"; */
+"PPa-au-cGS.headerTitle" = "Function";
+
+/* Class = "UITextField"; placeholder = "半角10桁まで"; ObjectID = "PPm-7t-1vt"; */
+"PPm-7t-1vt.placeholder" = "up to 10 characters";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "PTA-n0-j9i"; */
+"PTA-n0-j9i.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "A&D パルスオキシメータTM1121"; ObjectID = "Q5n-rS-wB9"; */
+"Q5n-rS-wB9.text" = "A&D Pulse Oximeter TM1121";
+
+/* Class = "UITextField"; text = "5分"; ObjectID = "Q7d-XW-nRp"; */
+"Q7d-XW-nRp.text" = "5minutes";
+
+/* Class = "UIButton"; normalTitle = "位置通知設定"; ObjectID = "QLD-qS-4I6"; */
+"QLD-qS-4I6.normalTitle" = "Location Notification Settings";
+
+/* Class = "UILabel"; text = "skype"; ObjectID = "QP6-cl-55C"; */
+"QP6-cl-55C.text" = "skype";
+
+/* Class = "UILabel"; text = "デバイス名"; ObjectID = "Qm6-ml-d27"; */
+"Qm6-ml-d27.text" = "Device Name";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "QwP-Iy-Hu2"; */
+"QwP-Iy-Hu2.text" = "Title";
+
+/* Class = "UILabel"; text = "faceBook"; ObjectID = "RzO-3w-KlS"; */
+"RzO-3w-KlS.text" = "faceBook";
+
+/* Class = "UITextField"; text = "低"; ObjectID = "Sgg-W3-vYU"; */
+"Sgg-W3-vYU.text" = "Low";
+
+/* Class = "UILabel"; text = "gmail"; ObjectID = "Tsw-Fb-aWO"; */
+"Tsw-Fb-aWO.text" = "gmail";
+
+/* Class = "UILabel"; text = "LANCEBAND"; ObjectID = "U0t-Np-650"; */
+"U0t-Np-650.text" = "LANCEBAND";
+
+/* Class = "UILabel"; text = "デバイス名"; ObjectID = "VDi-pn-91K"; */
+"VDi-pn-91K.text" = "Device Name";
+
+/* Class = "UITextField"; placeholder = "1-60"; ObjectID = "VV9-q8-Vkl"; */
+"VV9-q8-Vkl.placeholder" = "1-60";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "VV9-q8-Vkl"; */
+"VV9-q8-Vkl.text" = "1";
+
+/* Class = "UILabel"; text = "未接続"; ObjectID = "VsY-hz-moc"; */
+"VsY-hz-moc.text" = "Not Connected";
+
+/* Class = "UILabel"; text = "歩数計測間隔"; ObjectID = "Wkf-5p-eha"; */
+"Wkf-5p-eha.text" = "Steps Measurement Interval";
+
+/* Class = "UILabel"; text = "qq"; ObjectID = "Wyh-X0-sUQ"; */
+"Wyh-X0-sUQ.text" = "qq";
+
+/* Class = "UILabel"; text = "whatsApp"; ObjectID = "XJU-u4-gzE"; */
+"XJU-u4-gzE.text" = "whatsApp";
+
+/* Class = "UINavigationItem"; title = "サーバー設定"; ObjectID = "Y2H-mc-8iT"; */
+"Y2H-mc-8iT.title" = "Server Settings";
+
+/* Class = "UINavigationItem"; title = "計測器設定"; ObjectID = "ZZZ-7X-sFB"; */
+"ZZZ-7X-sFB.title" = "Measuring Device Settings";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "asc-E8-EOD"; */
+"asc-E8-EOD.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "BDアドレスまたはシリアルナンバー"; ObjectID = "brW-fO-VH5"; */
+"brW-fO-VH5.text" = "BD Address or Serial Number";
+
+/* Class = "UILabel"; text = "A&D 体温計 UT-201BLE"; ObjectID = "cda-k9-Vcf"; */
+"cda-k9-Vcf.text" = "A&D Medical Thermometer UT-201BLE";
+
+/* Class = "UILabel"; text = "kakaoTalk"; ObjectID = "cmf-0D-cdy"; */
+"cmf-0D-cdy.text" = "kakaoTalk";
+
+/* Class = "UIButton"; normalTitle = "ペアリング開始"; ObjectID = "d6I-kE-sMM"; */
+"d6I-kE-sMM.normalTitle" = "Start Pairing";
+
+/* Class = "UILabel"; text = "A&D 血圧計 UA-651BLE"; ObjectID = "d7G-BT-Q5N"; */
+"d7G-BT-Q5N.text" = "A&D Blood Pressure Monitor UA-651BLE";
+
+/* Class = "UILabel"; text = "着信"; ObjectID = "dVK-B0-fjL"; */
+"dVK-B0-fjL.text" = "Phone";
+
+/* Class = "UILabel"; text = "A&D 体重計 UC-352BLE"; ObjectID = "dnl-rP-e7E"; */
+"dnl-rP-e7E.text" = "A&D Weight Scale UC-352BLE";
+
+/* Class = "UISegmentedControl"; e08-S9-FrK.segmentTitles[0] = "常時通知"; ObjectID = "e08-S9-FrK"; */
+"e08-S9-FrK.segmentTitles[0]" = "Always";
+
+/* Class = "UISegmentedControl"; e08-S9-FrK.segmentTitles[1] = "時刻指定"; ObjectID = "e08-S9-FrK"; */
+"e08-S9-FrK.segmentTitles[1]" = "Specify Time";
+
+/* Class = "UITableViewSection"; headerTitle = "機能"; ObjectID = "foS-N4-LTG"; */
+"foS-N4-LTG.headerTitle" = "Function";
+
+/* Class = "UITextField"; placeholder = "1-60"; ObjectID = "gZA-rm-FmK"; */
+"gZA-rm-FmK.placeholder" = "1-60";
+
+/* Class = "UITextField"; text = "5"; ObjectID = "gZA-rm-FmK"; */
+"gZA-rm-FmK.text" = "5";
+
+/* Class = "UILabel"; text = "その他"; ObjectID = "h88-Ye-syN"; */
+"h88-Ye-syN.text" = "Other";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "hkp-gf-Qzp"; */
+"hkp-gf-Qzp.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "接続可能なウォッチ"; ObjectID = "hwM-4f-bxW"; */
+"hwM-4f-bxW.text" = "Connectable Watch";
+
+/* Class = "UILabel"; text = "位置情報通知 終了時刻"; ObjectID = "hww-ui-JjC"; */
+"hww-ui-JjC.text" = "Location Notification Stop Time";
+
+/* Class = "UILabel"; text = "自動計測間隔"; ObjectID = "j4F-QG-35Z"; */
+"j4F-QG-35Z.text" = "Auto Measurement Interval";
+
+//血圧自動測定
+"hic-6S-o4F.text" = "Blood Pressure Auto Measurement";
+
+//SpO2自動測定
+"5RV-65-oQa.text" = "SpO2 Auto Measurement";
+
+/* Class = "UILabel"; text = "接続可能なウォッチ"; ObjectID = "jWj-QE-kbW"; */
+"jWj-QE-kbW.text" = "Connectable Watch";
+
+/* Class = "UINavigationItem"; title = "位置通知設定"; ObjectID = "jzi-rT-U04"; */
+"jzi-rT-U04.title" = "Location Notification Settings";
+
+/* Class = "UILabel"; text = "測定間隔"; ObjectID = "njw-wK-7ND"; */
+"njw-wK-7ND.text" = " Measurement Interval";
+
+/* Class = "UINavigationItem"; title = "ウェアラブルデバイス選択"; ObjectID = "opS-pq-i58"; */
+"opS-pq-i58.title" = "Wearable Device Selection";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "p1i-TL-af1"; */
+"p1i-TL-af1.text" = "1";
+
+/* Class = "UILabel"; text = "ユーザー情報未設定"; ObjectID = "qxD-Rq-Oit"; */
+"qxD-Rq-Oit.text" = "ユーザー情報未設定";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "rI5-qD-Ugk"; */
+"rI5-qD-Ugk.text" = "1";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "rKr-r1-yAO"; */
+"rKr-r1-yAO.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "ウェアラブル設定"; ObjectID = "sPb-xp-eyZ"; */
+"sPb-xp-eyZ.title" = "Wearable Settings";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "sXS-91-T5b"; */
+"sXS-91-T5b.text" = "1";
+
+/* Class = "UITextField"; text = "17:00"; ObjectID = "t3I-gt-7DI"; */
+"t3I-gt-7DI.text" = "17:00";
+
+/* Class = "UILabel"; text = "接続可能なデバイス"; ObjectID = "tHe-6d-jTG"; */
+"tHe-6d-jTG.text" = "Connectable Device";
+
+/* Class = "UILabel"; text = "分"; ObjectID = "tKu-nF-bfi"; */
+"tKu-nF-bfi.text" = "minutes";
+
+/* Class = "UIButton"; normalTitle = "ウェアラブルデバイス設定"; ObjectID = "tYy-GC-irv"; */
+"tYy-GC-irv.normalTitle" = "Wearable Device Settings";
+
+/* Class = "UIButton"; normalTitle = "ペアリング開始"; ObjectID = "uQr-r8-OUY"; */
+"uQr-r8-OUY.normalTitle" = "Start Pairing";
+
+/* Class = "UITableViewSection"; headerTitle = "通知アプリ"; ObjectID = "urL-Wg-uFw"; */
+"urL-Wg-uFw.headerTitle" = "Notification Application";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "vAX-Vb-E6k"; */
+"vAX-Vb-E6k.text" = "Title";
+
+/* Class = "UILabel"; text = "分"; ObjectID = "vKl-2z-Wc8"; */
+"vKl-2z-Wc8.text" = "minutes";
+
+/* Class = "UINavigationItem"; title = "ウェアラブルデバイス設定管理"; ObjectID = "wE3-8W-3kP"; */
+"wE3-8W-3kP.title" = "Wearable Device Settings";
+
+/* Class = "UILabel"; text = "未接続"; ObjectID = "x0x-mi-cl8"; */
+"x0x-mi-cl8.text" = "Not Connected";
+
+/* Class = "UILabel"; text = "LINE"; ObjectID = "xQK-fV-54j"; */
+"xQK-fV-54j.text" = "LINE";
+
+/* Class = "UITableViewSection"; headerTitle = "機器設定"; ObjectID = "xgC-Aw-u4K"; */
+"xgC-Aw-u4K.headerTitle" = "Device Settings";
+
+/* Class = "UILabel"; text = "着信"; ObjectID = "xqz-QH-ksT"; */
+"xqz-QH-ksT.text" = "Phone";
+
+/* Class = "UILabel"; text = "twitter"; ObjectID = "z7i-d6-mWl"; */
+"z7i-d6-mWl.text" = "twitter";
+
+//オムロン環境センサ 2JCIE-BL01
+"9f8-m2-eIj.text" = "OMRON Environment Sensor 2JCIE-BL01";
+//A&D 体重計 UC-352BLE
+"5AX-VJ-bz6.text" = "A&D Weight Scale UC-352BLE";
+//A&D 血圧計 UA-651BLE
+"h35-A6-lZo.text" = "A&D Blood Pressure Monitor UA-651BLE";
+//A&D 体温計 UT-201BLE
+"1CW-f2-9pu.text" = "A&D Medical Thermometer UT-201BLE";
+//A&D パルスオキシメータTM1121
+"uhu-eQ-Pda.text" = "A&D Pulse Oximeter TM1121";
+
+//未設定
+"xyG-Je-Ydq.text" = "Not Configured";
+"clW-kN-QYg.text" = "Not Configured";
+"3tY-cW-DEe.text" = "Not Configured";
+"yzK-VO-uDh.text" = "Not Configured";
+"G7f-1M-6iC.text" = "Not Configured";

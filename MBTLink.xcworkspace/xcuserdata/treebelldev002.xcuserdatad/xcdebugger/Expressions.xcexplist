@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "IbeaconViewController.tableView(_:numberOfRowsInSection:):IbeaconViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "DcService.locationService.beaconDataTextDic.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LocationService.locationManager(_:didRangeBeacons:in:):LocationService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "beaconDataMajorDic">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IbeaconViewController.viewDidLoad():IbeaconViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

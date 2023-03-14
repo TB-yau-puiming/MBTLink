@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  MBTLink
+
+  Created by 開発用treebell003 on 2022/11/24.
+  
+*/
+"minutes" = "分";
+"3minutes" = "3分";
+"5minutes" = "5分";
+"10minutes" = "10分";
+"30minutes" = "30分";
+"Low" = "低";
+"Medium" = "中" ;
+"High" = "高";

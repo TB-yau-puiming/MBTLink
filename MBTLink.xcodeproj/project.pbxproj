@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6424544829665C33004793B4 /* IntConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6424544729665C33004793B4 /* IntConst.swift */; };
+		64893855298CB04F009A8CF2 /* HistoryWatchCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64893854298CB04F009A8CF2 /* HistoryWatchCodable.swift */; };
+		648A2582292EFA8400CBFDD0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 648A2584292EFA8400CBFDD0 /* Localizable.strings */; };
+		64BF658A292F675100C2CA3F /* StringsConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BF6589292F675100C2CA3F /* StringsConst.swift */; };
+		64E88CDF295AD6C200D7A6E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64E88CE1295AD6C200D7A6E4 /* InfoPlist.strings */; };
+		BF0824AC272110BA0000E226 /* CommonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0824AB272110BA0000E226 /* CommonUtil.swift */; };
+		BF1A78B82716624D00A276C2 /* BloodPressuresMonitorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A78B72716624C00A276C2 /* BloodPressuresMonitorService.swift */; };
+		BF1A78BD271666D800A276C2 /* EnvSensorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A78BC271666D800A276C2 /* EnvSensorService.swift */; };
+		BF1A78CD27166CB800A276C2 /* libYCBleSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1A78C627166AD400A276C2 /* libYCBleSDK.a */; };
+		BF1A78D027166D4C00A276C2 /* MBTLink-Bridging-Header.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A78CF27166D4C00A276C2 /* MBTLink-Bridging-Header.m */; };
+		BF1BC909271E8E2300940AF0 /* WatchSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BC908271E8E2300940AF0 /* WatchSettingTableViewController.swift */; };
+		BF22D89E274B70CF00E6713C /* DataCommunicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF22D89D274B70CF00E6713C /* DataCommunicationService.swift */; };
+		BF22D8A2274B8ADF00E6713C /* BloodPressuresMonitorCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF22D8A1274B8ADF00E6713C /* BloodPressuresMonitorCodable.swift */; };
+		BF22D8A5274B8B0200E6713C /* WeightScaleCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF22D8A4274B8B0200E6713C /* WeightScaleCodable.swift */; };
+		BF22D8A8274B8B2300E6713C /* ThermometerCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF22D8A7274B8B2300E6713C /* ThermometerCodable.swift */; };
+		BF22D8AB274B8E6F00E6713C /* WatchCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF22D8AA274B8E6F00E6713C /* WatchCodable.swift */; };
+		BF22D8AE274B8F2800E6713C /* PulseOximeterCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF22D8AD274B8F2800E6713C /* PulseOximeterCodable.swift */; };
+		BF2533D726CB6ECA009B8D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2533D626CB6ECA009B8D4F /* AppDelegate.swift */; };
+		BF2533D926CB6ECA009B8D4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2533D826CB6ECA009B8D4F /* SceneDelegate.swift */; };
+		BF2533DB26CB6ECA009B8D4F /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2533DA26CB6ECA009B8D4F /* TopViewController.swift */; };
+		BF2533DE26CB6ECA009B8D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2533DC26CB6ECA009B8D4F /* Main.storyboard */; };
+		BF2533E026CB6ECB009B8D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2533DF26CB6ECB009B8D4F /* Assets.xcassets */; };
+		BF2533E326CB6ECB009B8D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2533E126CB6ECB009B8D4F /* LaunchScreen.storyboard */; };
+		BF2B9163274776DE00A8895D /* CommonCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B9162274776DE00A8895D /* CommonCodable.swift */; };
+		BF2B916A274798E100A8895D /* LocationCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B9169274798E100A8895D /* LocationCodable.swift */; };
+		BF2B916D2747998700A8895D /* EnvSensorCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B916C2747998700A8895D /* EnvSensorCodable.swift */; };
+		BF311E0F270D2D7700419D1E /* CommonConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF311E0E270D2D7700419D1E /* CommonConst.swift */; };
+		BF34EADA278FB3D50083C042 /* CRPSmartBandManageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF34EAD9278FB3D50083C042 /* CRPSmartBandManageService.swift */; };
+		BF34EADE278FE4EE0083C042 /* WatchManageBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF34EADD278FE4EE0083C042 /* WatchManageBaseService.swift */; };
+		BF34EAE0278FF5DB0083C042 /* WatchTypeSelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF34EADF278FF5DB0083C042 /* WatchTypeSelectTableViewController.swift */; };
+		BF34EAE22790267C0083C042 /* WatchSettingCRPSmartBandTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF34EAE12790267C0083C042 /* WatchSettingCRPSmartBandTableViewController.swift */; };
+		BF34EAE4279026BF0083C042 /* WatchSettingCRPSmartBandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF34EAE3279026BF0083C042 /* WatchSettingCRPSmartBandViewController.swift */; };
+		BF35FC0526F1CACE00FF6BCB /* PulseOximeterConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF35FBFA26F1CACE00FF6BCB /* PulseOximeterConst.swift */; };
+		BF35FC0626F1CACE00FF6BCB /* PulseOximeterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF35FBFB26F1CACE00FF6BCB /* PulseOximeterService.swift */; };
+		BF35FC0726F1CACE00FF6BCB /* ThermometerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF35FBFC26F1CACE00FF6BCB /* ThermometerService.swift */; };
+		BF35FC0826F1CACE00FF6BCB /* EnvSensorConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF35FBFD26F1CACE00FF6BCB /* EnvSensorConst.swift */; };
+		BF35FC0926F1CACE00FF6BCB /* ThermometerConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF35FBFE26F1CACE00FF6BCB /* ThermometerConst.swift */; };
+		BF35FC0A26F1CACE00FF6BCB /* BloodPressuresMonitorConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF35FBFF26F1CACE00FF6BCB /* BloodPressuresMonitorConst.swift */; };
+		BF35FC0B26F1CACE00FF6BCB /* ConvertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF35FC0026F1CACE00FF6BCB /* ConvertUtil.swift */; };
+		BF35FC0E26F1CACE00FF6BCB /* BleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF35FC0326F1CACE00FF6BCB /* BleService.swift */; };
+		BF36A2F626F2D9DA00BC6BBA /* WeightScaleConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36A2F526F2D9DA00BC6BBA /* WeightScaleConst.swift */; };
+		BF36A2FD26F2DAFE00BC6BBA /* WeightScaleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36A2FC26F2DAFE00BC6BBA /* WeightScaleService.swift */; };
+		BF36A30326F2DD9A00BC6BBA /* EnvSensorLatestDataDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36A30226F2DD9A00BC6BBA /* EnvSensorLatestDataDto.swift */; };
+		BF36A30E26F2E10400BC6BBA /* BloodPressuresMonitorDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36A30A26F2E10300BC6BBA /* BloodPressuresMonitorDto.swift */; };
+		BF36A30F26F2E10400BC6BBA /* ThermometerDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36A30B26F2E10300BC6BBA /* ThermometerDto.swift */; };
+		BF36A31026F2E10400BC6BBA /* PulseOximeterDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36A30C26F2E10300BC6BBA /* PulseOximeterDto.swift */; };
+		BF36A31126F2E10400BC6BBA /* WeightScaleDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36A30D26F2E10400BC6BBA /* WeightScaleDto.swift */; };
+		BF3AD747274DCC86005E05BD /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3AD746274DCC86005E05BD /* LocationService.swift */; };
+		BF3D3A2D2716932C00C969F1 /* YCBleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D3A2C2716932C00C969F1 /* YCBleService.swift */; };
+		BF3D3A302716EB5300C969F1 /* WatchDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D3A2F2716EB5300C969F1 /* WatchDto.swift */; };
+		BF3D3A352716F12000C969F1 /* WatchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D3A342716F12000C969F1 /* WatchService.swift */; };
+		BF3D3A382716F4D600C969F1 /* WatchConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D3A372716F4D600C969F1 /* WatchConst.swift */; };
+		BF4B3BB827916BDB002E6090 /* CRPSmartBandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B3BB727916BDB002E6090 /* CRPSmartBandService.swift */; };
+		BF4B721927433ECD0051073C /* MeasuringInstrumentManageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B721827433ECD0051073C /* MeasuringInstrumentManageService.swift */; };
+		BF4B721C274344250051073C /* MeasuringInstrumentSettingInfoDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B721B274344250051073C /* MeasuringInstrumentSettingInfoDto.swift */; };
+		BF4B721F27437D260051073C /* MeasuringInstrumentSettingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B721E27437D260051073C /* MeasuringInstrumentSettingData.swift */; };
+		BF4B722227437F0B0051073C /* MeasuringInstrumentConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B722127437F0B0051073C /* MeasuringInstrumentConst.swift */; };
+		BF52D2E92744F7160026138E /* MeasuringInstrumentBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52D2E82744F7160026138E /* MeasuringInstrumentBaseService.swift */; };
+		BF53619127A12BD400159693 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF53619027A12BD400159693 /* WebViewController.swift */; };
+		BF58AB59270FC46D009D38B6 /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58AB58270FC46D009D38B6 /* StringUtil.swift */; };
+		BF59F3C827AA4751005E7425 /* UiUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59F3C727AA4751005E7425 /* UiUtil.swift */; };
+		BF6157C2271FF50E00CE55CA /* WatchSettingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6157C1271FF50E00CE55CA /* WatchSettingData.swift */; };
+		BF74E33327D1C6D40010FB9A /* UserSettingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF74E33227D1C6D40010FB9A /* UserSettingData.swift */; };
+		BF79A85C274F47F900887501 /* VersionCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF79A85B274F47F900887501 /* VersionCodable.swift */; };
+		BF79A85F274F491E00887501 /* LogCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF79A85E274F491E00887501 /* LogCodable.swift */; };
+		BF84E34026DC65CD00045E05 /* MeasuringInstrumentSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84E33F26DC65CD00045E05 /* MeasuringInstrumentSettingTableViewController.swift */; };
+		BF84E34726DC9D9000045E05 /* WatchSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84E34626DC9D9000045E05 /* WatchSettingViewController.swift */; };
+		BF84E34A26DCB63D00045E05 /* MeasuringInstrumentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84E34926DCB63D00045E05 /* MeasuringInstrumentDetailViewController.swift */; };
+		BF84E34D26DE0B2100045E05 /* LocationInfoSettingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84E34C26DE0B2100045E05 /* LocationInfoSettingData.swift */; };
+		BF86C4992733B1F000A7C3F5 /* WatchSettingManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86C4982733B1F000A7C3F5 /* WatchSettingManageViewController.swift */; };
+		BF89F7C426F45C2F00051E60 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89F7C326F45C2F00051E60 /* DateUtil.swift */; };
+		BF8FBBA92738FC8600685AAC /* WatchDeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8FBBA82738FC8600685AAC /* WatchDeviceData.swift */; };
+		BF923595273CB2C5004F7383 /* ConnectStatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF923594273CB2C5004F7383 /* ConnectStatusTableViewController.swift */; };
+		BF93EDF8282A24C8001877E1 /* LogUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93EDF7282A24C8001877E1 /* LogUtil.swift */; };
+		BF995658278E6D6300A2ADB3 /* CRPSmartBandBleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF995657278E6D6300A2ADB3 /* CRPSmartBandBleService.swift */; };
+		BF9C93A026CF9A14004DB3CF /* UserSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9C939F26CF9A14004DB3CF /* UserSettingTableViewController.swift */; };
+		BF9C93A326D47770004DB3CF /* LocationInfoSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9C93A226D47770004DB3CF /* LocationInfoSettingTableViewController.swift */; };
+		BF9C93A826D4FDC9004DB3CF /* FileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9C93A726D4FDC9004DB3CF /* FileUtil.swift */; };
+		BFB68CE22730DCA00071511C /* WatchManageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB68CE12730DCA00071511C /* WatchManageService.swift */; };
+		BFF4DA3A271D15BA0052AC5B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFF4DA39271D15BA0052AC5B /* icon.png */; };
+		E256790A279C3A5F0082E257 /* Pods_MBTLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B6413C66001B6FDFC2839F /* Pods_MBTLink.framework */; };
+		E256790C279C3A620082E257 /* OTAFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF99564E278E6D0300A2ADB3 /* OTAFramework.framework */; };
+		E289679A279C3EA300EA320A /* CRPSmartBand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF99564A278E6CF500A2ADB3 /* CRPSmartBand.framework */; };
+		E289679B279C3EA300EA320A /* CRPSmartBand.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF99564A278E6CF500A2ADB3 /* CRPSmartBand.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E289679D279C3EA700EA320A /* RTKLEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF995651278E6D1500A2ADB3 /* RTKLEFoundation.framework */; };
+		E289679E279C3EA700EA320A /* RTKLEFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF995651278E6D1500A2ADB3 /* RTKLEFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E289679F279C3EA800EA320A /* RTKOTASDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF995654278E6D2F00A2ADB3 /* RTKOTASDK.framework */; };
+		E28967A0279C3EA800EA320A /* RTKOTASDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF995654278E6D2F00A2ADB3 /* RTKOTASDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E2DE987F278DBB8B006A3F2C /* IbeaconSettingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE987E278DBB8B006A3F2C /* IbeaconSettingData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E289679C279C3EA300EA320A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E289679E279C3EA700EA320A /* RTKLEFoundation.framework in Embed Frameworks */,
+				E28967A0279C3EA800EA320A /* RTKOTASDK.framework in Embed Frameworks */,
+				E289679B279C3EA300EA320A /* CRPSmartBand.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6424544729665C33004793B4 /* IntConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntConst.swift; sourceTree = "<group>"; };
+		64893854298CB04F009A8CF2 /* HistoryWatchCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryWatchCodable.swift; sourceTree = "<group>"; };
+		648A2583292EFA8400CBFDD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		648A2585292EFA8700CBFDD0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		648A2587292EFA9100CBFDD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		648A2589292EFABF00CBFDD0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		64BF6589292F675100C2CA3F /* StringsConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsConst.swift; sourceTree = "<group>"; };
+		64E88CE0295AD6C200D7A6E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64E88CE2295AD6C600D7A6E4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1751206B1AA90EF6B8BD3CB /* Pods-MBTLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBTLink.release.xcconfig"; path = "Target Support Files/Pods-MBTLink/Pods-MBTLink.release.xcconfig"; sourceTree = "<group>"; };
+		BF0824AB272110BA0000E226 /* CommonUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtil.swift; sourceTree = "<group>"; };
+		BF1A78B72716624C00A276C2 /* BloodPressuresMonitorService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodPressuresMonitorService.swift; sourceTree = "<group>"; };
+		BF1A78BC271666D800A276C2 /* EnvSensorService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvSensorService.swift; sourceTree = "<group>"; };
+		BF1A78C627166AD400A276C2 /* libYCBleSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYCBleSDK.a; path = MBTLink/YCBleSDK/libYCBleSDK.a; sourceTree = "<group>"; };
+		BF1A78CA27166CA900A276C2 /* YCBleSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = YCBleSDK; sourceTree = "<group>"; };
+		BF1A78CE27166D4C00A276C2 /* MBTLink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBTLink-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF1A78CF27166D4C00A276C2 /* MBTLink-Bridging-Header.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBTLink-Bridging-Header.m"; sourceTree = "<group>"; };
+		BF1BC908271E8E2300940AF0 /* WatchSettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSettingTableViewController.swift; sourceTree = "<group>"; };
+		BF22D89D274B70CF00E6713C /* DataCommunicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCommunicationService.swift; sourceTree = "<group>"; };
+		BF22D8A1274B8ADF00E6713C /* BloodPressuresMonitorCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressuresMonitorCodable.swift; sourceTree = "<group>"; };
+		BF22D8A4274B8B0200E6713C /* WeightScaleCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightScaleCodable.swift; sourceTree = "<group>"; };
+		BF22D8A7274B8B2300E6713C /* ThermometerCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerCodable.swift; sourceTree = "<group>"; };
+		BF22D8AA274B8E6F00E6713C /* WatchCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCodable.swift; sourceTree = "<group>"; };
+		BF22D8AD274B8F2800E6713C /* PulseOximeterCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseOximeterCodable.swift; sourceTree = "<group>"; };
+		BF2533D326CB6ECA009B8D4F /* MBTLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBTLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2533D626CB6ECA009B8D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF2533D826CB6ECA009B8D4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF2533DA26CB6ECA009B8D4F /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		BF2533DD26CB6ECA009B8D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF2533DF26CB6ECB009B8D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF2533E226CB6ECB009B8D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF2533E426CB6ECB009B8D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2B9162274776DE00A8895D /* CommonCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCodable.swift; sourceTree = "<group>"; };
+		BF2B9169274798E100A8895D /* LocationCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCodable.swift; sourceTree = "<group>"; };
+		BF2B916C2747998700A8895D /* EnvSensorCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvSensorCodable.swift; sourceTree = "<group>"; };
+		BF311E0E270D2D7700419D1E /* CommonConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonConst.swift; sourceTree = "<group>"; };
+		BF34EAD9278FB3D50083C042 /* CRPSmartBandManageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRPSmartBandManageService.swift; sourceTree = "<group>"; };
+		BF34EADD278FE4EE0083C042 /* WatchManageBaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchManageBaseService.swift; sourceTree = "<group>"; };
+		BF34EADF278FF5DB0083C042 /* WatchTypeSelectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchTypeSelectTableViewController.swift; sourceTree = "<group>"; };
+		BF34EAE12790267C0083C042 /* WatchSettingCRPSmartBandTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchSettingCRPSmartBandTableViewController.swift; sourceTree = "<group>"; };
+		BF34EAE3279026BF0083C042 /* WatchSettingCRPSmartBandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchSettingCRPSmartBandViewController.swift; sourceTree = "<group>"; };
+		BF35FBFA26F1CACE00FF6BCB /* PulseOximeterConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PulseOximeterConst.swift; path = MBTLink/Const/PulseOximeterConst.swift; sourceTree = SOURCE_ROOT; };
+		BF35FBFB26F1CACE00FF6BCB /* PulseOximeterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PulseOximeterService.swift; path = MBTLink/Service/PulseOximeterService.swift; sourceTree = SOURCE_ROOT; };
+		BF35FBFC26F1CACE00FF6BCB /* ThermometerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThermometerService.swift; path = MBTLink/Service/ThermometerService.swift; sourceTree = SOURCE_ROOT; };
+		BF35FBFD26F1CACE00FF6BCB /* EnvSensorConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnvSensorConst.swift; path = MBTLink/Const/EnvSensorConst.swift; sourceTree = SOURCE_ROOT; };
+		BF35FBFE26F1CACE00FF6BCB /* ThermometerConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThermometerConst.swift; path = MBTLink/Const/ThermometerConst.swift; sourceTree = SOURCE_ROOT; };
+		BF35FBFF26F1CACE00FF6BCB /* BloodPressuresMonitorConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BloodPressuresMonitorConst.swift; path = MBTLink/Const/BloodPressuresMonitorConst.swift; sourceTree = SOURCE_ROOT; };
+		BF35FC0026F1CACE00FF6BCB /* ConvertUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConvertUtil.swift; path = MBTLink/Util/ConvertUtil.swift; sourceTree = SOURCE_ROOT; };
+		BF35FC0326F1CACE00FF6BCB /* BleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BleService.swift; path = MBTLink/Service/BleService.swift; sourceTree = SOURCE_ROOT; };
+		BF36A2F526F2D9DA00BC6BBA /* WeightScaleConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightScaleConst.swift; sourceTree = "<group>"; };
+		BF36A2FC26F2DAFE00BC6BBA /* WeightScaleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightScaleService.swift; sourceTree = "<group>"; };
+		BF36A30226F2DD9A00BC6BBA /* EnvSensorLatestDataDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvSensorLatestDataDto.swift; sourceTree = "<group>"; };
+		BF36A30A26F2E10300BC6BBA /* BloodPressuresMonitorDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodPressuresMonitorDto.swift; sourceTree = "<group>"; };
+		BF36A30B26F2E10300BC6BBA /* ThermometerDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermometerDto.swift; sourceTree = "<group>"; };
+		BF36A30C26F2E10300BC6BBA /* PulseOximeterDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseOximeterDto.swift; sourceTree = "<group>"; };
+		BF36A30D26F2E10400BC6BBA /* WeightScaleDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightScaleDto.swift; sourceTree = "<group>"; };
+		BF3AD746274DCC86005E05BD /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		BF3D3A2C2716932C00C969F1 /* YCBleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCBleService.swift; sourceTree = "<group>"; };
+		BF3D3A2F2716EB5300C969F1 /* WatchDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchDto.swift; sourceTree = "<group>"; };
+		BF3D3A342716F12000C969F1 /* WatchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchService.swift; sourceTree = "<group>"; };
+		BF3D3A372716F4D600C969F1 /* WatchConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConst.swift; sourceTree = "<group>"; };
+		BF4B3BB727916BDB002E6090 /* CRPSmartBandService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRPSmartBandService.swift; sourceTree = "<group>"; };
+		BF4B721827433ECD0051073C /* MeasuringInstrumentManageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasuringInstrumentManageService.swift; sourceTree = "<group>"; };
+		BF4B721B274344250051073C /* MeasuringInstrumentSettingInfoDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasuringInstrumentSettingInfoDto.swift; sourceTree = "<group>"; };
+		BF4B721E27437D260051073C /* MeasuringInstrumentSettingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasuringInstrumentSettingData.swift; sourceTree = "<group>"; };
+		BF4B722127437F0B0051073C /* MeasuringInstrumentConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasuringInstrumentConst.swift; sourceTree = "<group>"; };
+		BF52D2E82744F7160026138E /* MeasuringInstrumentBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasuringInstrumentBaseService.swift; sourceTree = "<group>"; };
+		BF53619027A12BD400159693 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		BF58AB58270FC46D009D38B6 /* StringUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtil.swift; sourceTree = "<group>"; };
+		BF59F3C727AA4751005E7425 /* UiUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiUtil.swift; sourceTree = "<group>"; };
+		BF6157C1271FF50E00CE55CA /* WatchSettingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSettingData.swift; sourceTree = "<group>"; };
+		BF74E33227D1C6D40010FB9A /* UserSettingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingData.swift; sourceTree = "<group>"; };
+		BF79A85B274F47F900887501 /* VersionCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionCodable.swift; sourceTree = "<group>"; };
+		BF79A85E274F491E00887501 /* LogCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCodable.swift; sourceTree = "<group>"; };
+		BF84E33F26DC65CD00045E05 /* MeasuringInstrumentSettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasuringInstrumentSettingTableViewController.swift; sourceTree = "<group>"; };
+		BF84E34626DC9D9000045E05 /* WatchSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSettingViewController.swift; sourceTree = "<group>"; };
+		BF84E34926DCB63D00045E05 /* MeasuringInstrumentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasuringInstrumentDetailViewController.swift; sourceTree = "<group>"; };
+		BF84E34C26DE0B2100045E05 /* LocationInfoSettingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoSettingData.swift; sourceTree = "<group>"; };
+		BF86C4982733B1F000A7C3F5 /* WatchSettingManageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSettingManageViewController.swift; sourceTree = "<group>"; };
+		BF89F7C326F45C2F00051E60 /* DateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
+		BF8FBBA82738FC8600685AAC /* WatchDeviceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchDeviceData.swift; sourceTree = "<group>"; };
+		BF923594273CB2C5004F7383 /* ConnectStatusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectStatusTableViewController.swift; sourceTree = "<group>"; };
+		BF93EDF7282A24C8001877E1 /* LogUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogUtil.swift; sourceTree = "<group>"; };
+		BF995647278E6CCF00A2ADB3 /* CRPSmartBandSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CRPSmartBandSDK; sourceTree = "<group>"; };
+		BF99564A278E6CF500A2ADB3 /* CRPSmartBand.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CRPSmartBand.framework; path = MBTLink/CRPSmartBandSDK/CRPSmartBand.framework; sourceTree = "<group>"; };
+		BF99564E278E6D0300A2ADB3 /* OTAFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OTAFramework.framework; path = MBTLink/CRPSmartBandSDK/OTAFramework.framework; sourceTree = "<group>"; };
+		BF995651278E6D1500A2ADB3 /* RTKLEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTKLEFoundation.framework; path = MBTLink/CRPSmartBandSDK/RTKLEFoundation.framework; sourceTree = "<group>"; };
+		BF995654278E6D2F00A2ADB3 /* RTKOTASDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTKOTASDK.framework; path = MBTLink/CRPSmartBandSDK/RTKOTASDK.framework; sourceTree = "<group>"; };
+		BF995657278E6D6300A2ADB3 /* CRPSmartBandBleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRPSmartBandBleService.swift; sourceTree = "<group>"; };
+		BF9C939F26CF9A14004DB3CF /* UserSettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingTableViewController.swift; sourceTree = "<group>"; };
+		BF9C93A226D47770004DB3CF /* LocationInfoSettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoSettingTableViewController.swift; sourceTree = "<group>"; };
+		BF9C93A726D4FDC9004DB3CF /* FileUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtil.swift; sourceTree = "<group>"; };
+		BFB68CE12730DCA00071511C /* WatchManageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchManageService.swift; sourceTree = "<group>"; };
+		BFF4DA39271D15BA0052AC5B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D0B6413C66001B6FDFC2839F /* Pods_MBTLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBTLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2DE987E278DBB8B006A3F2C /* IbeaconSettingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbeaconSettingData.swift; sourceTree = "<group>"; };
+		EEE3D7ACAE159D8E624F43A1 /* Pods-MBTLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBTLink.debug.xcconfig"; path = "Target Support Files/Pods-MBTLink/Pods-MBTLink.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF2533D026CB6ECA009B8D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E256790C279C3A620082E257 /* OTAFramework.framework in Frameworks */,
+				E256790A279C3A5F0082E257 /* Pods_MBTLink.framework in Frameworks */,
+				E289679D279C3EA700EA320A /* RTKLEFoundation.framework in Frameworks */,
+				BF1A78CD27166CB800A276C2 /* libYCBleSDK.a in Frameworks */,
+				E289679F279C3EA800EA320A /* RTKOTASDK.framework in Frameworks */,
+				E289679A279C3EA300EA320A /* CRPSmartBand.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01807889D83B52301FA8672E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEE3D7ACAE159D8E624F43A1 /* Pods-MBTLink.debug.xcconfig */,
+				A1751206B1AA90EF6B8BD3CB /* Pods-MBTLink.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF1A78C027166A5800A276C2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BF84E34C26DE0B2100045E05 /* LocationInfoSettingData.swift */,
+				BF6157C1271FF50E00CE55CA /* WatchSettingData.swift */,
+				E2DE987E278DBB8B006A3F2C /* IbeaconSettingData.swift */,
+				BF8FBBA82738FC8600685AAC /* WatchDeviceData.swift */,
+				BF4B721E27437D260051073C /* MeasuringInstrumentSettingData.swift */,
+				BF74E33227D1C6D40010FB9A /* UserSettingData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BF1A78C527166AD300A276C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF995654278E6D2F00A2ADB3 /* RTKOTASDK.framework */,
+				BF995651278E6D1500A2ADB3 /* RTKLEFoundation.framework */,
+				BF99564E278E6D0300A2ADB3 /* OTAFramework.framework */,
+				BF99564A278E6CF500A2ADB3 /* CRPSmartBand.framework */,
+				BF1A78C627166AD400A276C2 /* libYCBleSDK.a */,
+				D0B6413C66001B6FDFC2839F /* Pods_MBTLink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF2533CA26CB6ECA009B8D4F = {
+			isa = PBXGroup;
+			children = (
+				BF2533D526CB6ECA009B8D4F /* MBTLink */,
+				BF2533D426CB6ECA009B8D4F /* Products */,
+				BF1A78C527166AD300A276C2 /* Frameworks */,
+				01807889D83B52301FA8672E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BF2533D426CB6ECA009B8D4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2533D326CB6ECA009B8D4F /* MBTLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF2533D526CB6ECA009B8D4F /* MBTLink */ = {
+			isa = PBXGroup;
+			children = (
+				BF995647278E6CCF00A2ADB3 /* CRPSmartBandSDK */,
+				BFF4DA39271D15BA0052AC5B /* icon.png */,
+				BF1A78CA27166CA900A276C2 /* YCBleSDK */,
+				BF1A78C027166A5800A276C2 /* Data */,
+				BF36A30126F2DD7500BC6BBA /* Dto */,
+				BF2B91612747765300A8895D /* Codable */,
+				BF35FC1126F1CAF700FF6BCB /* Const */,
+				BF35FBF826F1C9DB00FF6BCB /* Service */,
+				BF35FBF726F1C8AD00FF6BCB /* View */,
+				BF35FBF526F1C65F00FF6BCB /* Util */,
+				BF2533DC26CB6ECA009B8D4F /* Main.storyboard */,
+				648A2584292EFA8400CBFDD0 /* Localizable.strings */,
+				BF2533DF26CB6ECB009B8D4F /* Assets.xcassets */,
+				BF2533E126CB6ECB009B8D4F /* LaunchScreen.storyboard */,
+				64E88CE1295AD6C200D7A6E4 /* InfoPlist.strings */,
+				BF2533E426CB6ECB009B8D4F /* Info.plist */,
+				BF1A78CF27166D4C00A276C2 /* MBTLink-Bridging-Header.m */,
+				BF1A78CE27166D4C00A276C2 /* MBTLink-Bridging-Header.h */,
+			);
+			path = MBTLink;
+			sourceTree = "<group>";
+		};
+		BF2B91612747765300A8895D /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B9162274776DE00A8895D /* CommonCodable.swift */,
+				BF2B9169274798E100A8895D /* LocationCodable.swift */,
+				BF2B916C2747998700A8895D /* EnvSensorCodable.swift */,
+				BF22D8A4274B8B0200E6713C /* WeightScaleCodable.swift */,
+				BF22D8A1274B8ADF00E6713C /* BloodPressuresMonitorCodable.swift */,
+				BF22D8A7274B8B2300E6713C /* ThermometerCodable.swift */,
+				BF22D8AD274B8F2800E6713C /* PulseOximeterCodable.swift */,
+				BF22D8AA274B8E6F00E6713C /* WatchCodable.swift */,
+				64893854298CB04F009A8CF2 /* HistoryWatchCodable.swift */,
+				BF79A85B274F47F900887501 /* VersionCodable.swift */,
+				BF79A85E274F491E00887501 /* LogCodable.swift */,
+			);
+			path = Codable;
+			sourceTree = "<group>";
+		};
+		BF35FBF526F1C65F00FF6BCB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BF9C93A726D4FDC9004DB3CF /* FileUtil.swift */,
+				BF35FC0026F1CACE00FF6BCB /* ConvertUtil.swift */,
+				BF89F7C326F45C2F00051E60 /* DateUtil.swift */,
+				BF58AB58270FC46D009D38B6 /* StringUtil.swift */,
+				BF0824AB272110BA0000E226 /* CommonUtil.swift */,
+				BF59F3C727AA4751005E7425 /* UiUtil.swift */,
+				BF93EDF7282A24C8001877E1 /* LogUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		BF35FBF726F1C8AD00FF6BCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF2533D626CB6ECA009B8D4F /* AppDelegate.swift */,
+				BF2533D826CB6ECA009B8D4F /* SceneDelegate.swift */,
+				BF2533DA26CB6ECA009B8D4F /* TopViewController.swift */,
+				BF923594273CB2C5004F7383 /* ConnectStatusTableViewController.swift */,
+				BF86C4982733B1F000A7C3F5 /* WatchSettingManageViewController.swift */,
+				BF84E34626DC9D9000045E05 /* WatchSettingViewController.swift */,
+				BF1BC908271E8E2300940AF0 /* WatchSettingTableViewController.swift */,
+				BF34EADF278FF5DB0083C042 /* WatchTypeSelectTableViewController.swift */,
+				BF34EAE3279026BF0083C042 /* WatchSettingCRPSmartBandViewController.swift */,
+				BF34EAE12790267C0083C042 /* WatchSettingCRPSmartBandTableViewController.swift */,
+				BF84E33F26DC65CD00045E05 /* MeasuringInstrumentSettingTableViewController.swift */,
+				BF84E34926DCB63D00045E05 /* MeasuringInstrumentDetailViewController.swift */,
+				BF9C93A226D47770004DB3CF /* LocationInfoSettingTableViewController.swift */,
+				BF9C939F26CF9A14004DB3CF /* UserSettingTableViewController.swift */,
+				BF53619027A12BD400159693 /* WebViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF35FBF826F1C9DB00FF6BCB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BF34EADD278FE4EE0083C042 /* WatchManageBaseService.swift */,
+				BF52D2E82744F7160026138E /* MeasuringInstrumentBaseService.swift */,
+				BF1A78BC271666D800A276C2 /* EnvSensorService.swift */,
+				BF1A78B72716624C00A276C2 /* BloodPressuresMonitorService.swift */,
+				BF36A2FC26F2DAFE00BC6BBA /* WeightScaleService.swift */,
+				BF35FBFC26F1CACE00FF6BCB /* ThermometerService.swift */,
+				BF35FBFB26F1CACE00FF6BCB /* PulseOximeterService.swift */,
+				BF3D3A342716F12000C969F1 /* WatchService.swift */,
+				BF35FC0326F1CACE00FF6BCB /* BleService.swift */,
+				BF3D3A2C2716932C00C969F1 /* YCBleService.swift */,
+				BFB68CE12730DCA00071511C /* WatchManageService.swift */,
+				BF995657278E6D6300A2ADB3 /* CRPSmartBandBleService.swift */,
+				BF34EAD9278FB3D50083C042 /* CRPSmartBandManageService.swift */,
+				BF4B3BB727916BDB002E6090 /* CRPSmartBandService.swift */,
+				BF4B721827433ECD0051073C /* MeasuringInstrumentManageService.swift */,
+				BF22D89D274B70CF00E6713C /* DataCommunicationService.swift */,
+				BF3AD746274DCC86005E05BD /* LocationService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BF35FC1126F1CAF700FF6BCB /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				BF311E0E270D2D7700419D1E /* CommonConst.swift */,
+				6424544729665C33004793B4 /* IntConst.swift */,
+				BF35FBFD26F1CACE00FF6BCB /* EnvSensorConst.swift */,
+				BF36A2F526F2D9DA00BC6BBA /* WeightScaleConst.swift */,
+				BF35FBFF26F1CACE00FF6BCB /* BloodPressuresMonitorConst.swift */,
+				BF35FBFE26F1CACE00FF6BCB /* ThermometerConst.swift */,
+				BF35FBFA26F1CACE00FF6BCB /* PulseOximeterConst.swift */,
+				BF3D3A372716F4D600C969F1 /* WatchConst.swift */,
+				BF4B722127437F0B0051073C /* MeasuringInstrumentConst.swift */,
+				64BF6589292F675100C2CA3F /* StringsConst.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		BF36A30126F2DD7500BC6BBA /* Dto */ = {
+			isa = PBXGroup;
+			children = (
+				BF36A30226F2DD9A00BC6BBA /* EnvSensorLatestDataDto.swift */,
+				BF36A30D26F2E10400BC6BBA /* WeightScaleDto.swift */,
+				BF36A30A26F2E10300BC6BBA /* BloodPressuresMonitorDto.swift */,
+				BF36A30B26F2E10300BC6BBA /* ThermometerDto.swift */,
+				BF36A30C26F2E10300BC6BBA /* PulseOximeterDto.swift */,
+				BF3D3A2F2716EB5300C969F1 /* WatchDto.swift */,
+				BF4B721B274344250051073C /* MeasuringInstrumentSettingInfoDto.swift */,
+			);
+			path = Dto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF2533D226CB6ECA009B8D4F /* MBTLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2533E726CB6ECB009B8D4F /* Build configuration list for PBXNativeTarget "MBTLink" */;
+			buildPhases = (
+				AA66AC2FA3E9021EC004005D /* [CP] Check Pods Manifest.lock */,
+				BF2533CF26CB6ECA009B8D4F /* Sources */,
+				BF2533D026CB6ECA009B8D4F /* Frameworks */,
+				BF2533D126CB6ECA009B8D4F /* Resources */,
+				E6DBAB6AF650276755630FDA /* [CP] Embed Pods Frameworks */,
+				E289679C279C3EA300EA320A /* Embed Frameworks */,
+				E28967A1279C403700EA320A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBTLink;
+			productName = MTBLink;
+			productReference = BF2533D326CB6ECA009B8D4F /* MBTLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF2533CB26CB6ECA009B8D4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BF2533D226CB6ECA009B8D4F = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = BF2533CE26CB6ECA009B8D4F /* Build configuration list for PBXProject "MBTLink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ja,
+				en,
+				Base,
+			);
+			mainGroup = BF2533CA26CB6ECA009B8D4F;
+			productRefGroup = BF2533D426CB6ECA009B8D4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF2533D226CB6ECA009B8D4F /* MBTLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF2533D126CB6ECA009B8D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648A2582292EFA8400CBFDD0 /* Localizable.strings in Resources */,
+				64E88CDF295AD6C200D7A6E4 /* InfoPlist.strings in Resources */,
+				BFF4DA3A271D15BA0052AC5B /* icon.png in Resources */,
+				BF2533E326CB6ECB009B8D4F /* LaunchScreen.storyboard in Resources */,
+				BF2533E026CB6ECB009B8D4F /* Assets.xcassets in Resources */,
+				BF2533DE26CB6ECA009B8D4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA66AC2FA3E9021EC004005D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MBTLink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E28967A1279C403700EA320A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		E6DBAB6AF650276755630FDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MBTLink/Pods-MBTLink-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MBTLink/Pods-MBTLink-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MBTLink/Pods-MBTLink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF2533CF26CB6ECA009B8D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9C93A326D47770004DB3CF /* LocationInfoSettingTableViewController.swift in Sources */,
+				E2DE987F278DBB8B006A3F2C /* IbeaconSettingData.swift in Sources */,
+				BF2B916D2747998700A8895D /* EnvSensorCodable.swift in Sources */,
+				BF1A78BD271666D800A276C2 /* EnvSensorService.swift in Sources */,
+				BF35FC0526F1CACE00FF6BCB /* PulseOximeterConst.swift in Sources */,
+				64BF658A292F675100C2CA3F /* StringsConst.swift in Sources */,
+				BF58AB59270FC46D009D38B6 /* StringUtil.swift in Sources */,
+				BF22D8A8274B8B2300E6713C /* ThermometerCodable.swift in Sources */,
+				BF923595273CB2C5004F7383 /* ConnectStatusTableViewController.swift in Sources */,
+				BF22D8A2274B8ADF00E6713C /* BloodPressuresMonitorCodable.swift in Sources */,
+				BF1BC909271E8E2300940AF0 /* WatchSettingTableViewController.swift in Sources */,
+				BF36A30F26F2E10400BC6BBA /* ThermometerDto.swift in Sources */,
+				BF52D2E92744F7160026138E /* MeasuringInstrumentBaseService.swift in Sources */,
+				BF6157C2271FF50E00CE55CA /* WatchSettingData.swift in Sources */,
+				BF2533DB26CB6ECA009B8D4F /* TopViewController.swift in Sources */,
+				BF22D8AB274B8E6F00E6713C /* WatchCodable.swift in Sources */,
+				BF2533D726CB6ECA009B8D4F /* AppDelegate.swift in Sources */,
+				BF36A30E26F2E10400BC6BBA /* BloodPressuresMonitorDto.swift in Sources */,
+				BF59F3C827AA4751005E7425 /* UiUtil.swift in Sources */,
+				BF74E33327D1C6D40010FB9A /* UserSettingData.swift in Sources */,
+				BF34EAE22790267C0083C042 /* WatchSettingCRPSmartBandTableViewController.swift in Sources */,
+				BF311E0F270D2D7700419D1E /* CommonConst.swift in Sources */,
+				BF35FC0926F1CACE00FF6BCB /* ThermometerConst.swift in Sources */,
+				BF84E34D26DE0B2100045E05 /* LocationInfoSettingData.swift in Sources */,
+				BF36A30326F2DD9A00BC6BBA /* EnvSensorLatestDataDto.swift in Sources */,
+				BF34EADE278FE4EE0083C042 /* WatchManageBaseService.swift in Sources */,
+				BF2B916A274798E100A8895D /* LocationCodable.swift in Sources */,
+				BF3AD747274DCC86005E05BD /* LocationService.swift in Sources */,
+				BF36A2FD26F2DAFE00BC6BBA /* WeightScaleService.swift in Sources */,
+				BF3D3A2D2716932C00C969F1 /* YCBleService.swift in Sources */,
+				BF36A31026F2E10400BC6BBA /* PulseOximeterDto.swift in Sources */,
+				BF22D89E274B70CF00E6713C /* DataCommunicationService.swift in Sources */,
+				BF995658278E6D6300A2ADB3 /* CRPSmartBandBleService.swift in Sources */,
+				BF79A85F274F491E00887501 /* LogCodable.swift in Sources */,
+				BF35FC0A26F1CACE00FF6BCB /* BloodPressuresMonitorConst.swift in Sources */,
+				BF79A85C274F47F900887501 /* VersionCodable.swift in Sources */,
+				BF4B721C274344250051073C /* MeasuringInstrumentSettingInfoDto.swift in Sources */,
+				BF35FC0626F1CACE00FF6BCB /* PulseOximeterService.swift in Sources */,
+				BF3D3A302716EB5300C969F1 /* WatchDto.swift in Sources */,
+				BF89F7C426F45C2F00051E60 /* DateUtil.swift in Sources */,
+				BF34EAE0278FF5DB0083C042 /* WatchTypeSelectTableViewController.swift in Sources */,
+				BF93EDF8282A24C8001877E1 /* LogUtil.swift in Sources */,
+				BFB68CE22730DCA00071511C /* WatchManageService.swift in Sources */,
+				BF34EADA278FB3D50083C042 /* CRPSmartBandManageService.swift in Sources */,
+				BF86C4992733B1F000A7C3F5 /* WatchSettingManageViewController.swift in Sources */,
+				BF35FC0726F1CACE00FF6BCB /* ThermometerService.swift in Sources */,
+				BF1A78B82716624D00A276C2 /* BloodPressuresMonitorService.swift in Sources */,
+				BF3D3A352716F12000C969F1 /* WatchService.swift in Sources */,
+				BF22D8AE274B8F2800E6713C /* PulseOximeterCodable.swift in Sources */,
+				BF4B722227437F0B0051073C /* MeasuringInstrumentConst.swift in Sources */,
+				BF84E34026DC65CD00045E05 /* MeasuringInstrumentSettingTableViewController.swift in Sources */,
+				BF4B721F27437D260051073C /* MeasuringInstrumentSettingData.swift in Sources */,
+				BF4B721927433ECD0051073C /* MeasuringInstrumentManageService.swift in Sources */,
+				BF2B9163274776DE00A8895D /* CommonCodable.swift in Sources */,
+				BF9C93A826D4FDC9004DB3CF /* FileUtil.swift in Sources */,
+				BF2533D926CB6ECA009B8D4F /* SceneDelegate.swift in Sources */,
+				BF35FC0E26F1CACE00FF6BCB /* BleService.swift in Sources */,
+				BF34EAE4279026BF0083C042 /* WatchSettingCRPSmartBandViewController.swift in Sources */,
+				BF53619127A12BD400159693 /* WebViewController.swift in Sources */,
+				BF8FBBA92738FC8600685AAC /* WatchDeviceData.swift in Sources */,
+				BF22D8A5274B8B0200E6713C /* WeightScaleCodable.swift in Sources */,
+				64893855298CB04F009A8CF2 /* HistoryWatchCodable.swift in Sources */,
+				BF4B3BB827916BDB002E6090 /* CRPSmartBandService.swift in Sources */,
+				BF3D3A382716F4D600C969F1 /* WatchConst.swift in Sources */,
+				BF36A2F626F2D9DA00BC6BBA /* WeightScaleConst.swift in Sources */,
+				BF35FC0B26F1CACE00FF6BCB /* ConvertUtil.swift in Sources */,
+				6424544829665C33004793B4 /* IntConst.swift in Sources */,
+				BF84E34A26DCB63D00045E05 /* MeasuringInstrumentDetailViewController.swift in Sources */,
+				BF36A31126F2E10400BC6BBA /* WeightScaleDto.swift in Sources */,
+				BF84E34726DC9D9000045E05 /* WatchSettingViewController.swift in Sources */,
+				BF35FC0826F1CACE00FF6BCB /* EnvSensorConst.swift in Sources */,
+				BF9C93A026CF9A14004DB3CF /* UserSettingTableViewController.swift in Sources */,
+				BF0824AC272110BA0000E226 /* CommonUtil.swift in Sources */,
+				BF1A78D027166D4C00A276C2 /* MBTLink-Bridging-Header.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		648A2584292EFA8400CBFDD0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				648A2583292EFA8400CBFDD0 /* en */,
+				648A2585292EFA8700CBFDD0 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		64E88CE1295AD6C200D7A6E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E88CE0295AD6C200D7A6E4 /* en */,
+				64E88CE2295AD6C600D7A6E4 /* ja */,
+			);
+			name = InfoPlist.strings;
+			path = MBTLink;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF2533DC26CB6ECA009B8D4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2533DD26CB6ECA009B8D4F /* Base */,
+				648A2587292EFA9100CBFDD0 /* en */,
+				648A2589292EFABF00CBFDD0 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF2533E126CB6ECB009B8D4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2533E226CB6ECB009B8D4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF2533E526CB6ECB009B8D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "MBTLink/MBTLink-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF2533E626CB6ECB009B8D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "MBTLink/MBTLink-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF2533E826CB6ECB009B8D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1751206B1AA90EF6B8BD3CB /* Pods-MBTLink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 4WNMGYYL6P;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MBTLink/CRPSmartBandSDK",
+				);
+				INFOPLIST_FILE = "$(PROJECT_DIR)/MBTLink/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MBTLink/YCBleSDK",
+				);
+				MARKETING_VERSION = 1.1.38;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.treebell.MBTLink014;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MBTLink/MBTLink-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Debug;
+		};
+		BF2533E926CB6ECB009B8D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1751206B1AA90EF6B8BD3CB /* Pods-MBTLink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 4WNMGYYL6P;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MBTLink/CRPSmartBandSDK",
+				);
+				INFOPLIST_FILE = "$(PROJECT_DIR)/MBTLink/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MBTLink/YCBleSDK",
+				);
+				MARKETING_VERSION = 1.1.38;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.treebell.MBTLink014;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MBTLink/MBTLink-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF2533CE26CB6ECA009B8D4F /* Build configuration list for PBXProject "MBTLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2533E526CB6ECB009B8D4F /* Debug */,
+				BF2533E626CB6ECB009B8D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2533E726CB6ECB009B8D4F /* Build configuration list for PBXNativeTarget "MBTLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2533E826CB6ECB009B8D4F /* Debug */,
+				BF2533E926CB6ECB009B8D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF2533CB26CB6ECA009B8D4F /* Project object */;
+}
