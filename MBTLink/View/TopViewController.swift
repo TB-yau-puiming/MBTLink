@@ -486,7 +486,7 @@ class TopViewController: UIViewController {
             if delayTime > 299{
                 delayTime = 0
             }
-            //test
+            //
             //print("timeStr: \(timeStr) delayTime:\(delayTime)")
             DispatchQueue.main.asyncAfter ( deadline: DispatchTime.now() + Double(delayTime)) {
                 self.startCRPSmartBandGetDataMonitoringTimer()
